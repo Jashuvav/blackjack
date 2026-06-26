@@ -1,0 +1,42 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2hvdy10by1wbGF5LWJsYWNramFjay1sZWFkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODI4fX19");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: goldenrod;
+}
+
+#message-el {
+    font-size: 50px;
+    font-style: italic;
+}
+#cards-el{
+    font-size: 40px;
+}
+#sum-el{
+    font-size: 40px;
+}
+
+/* 3. Make sure that the two buttons have some space between
+each other when they are rendered out vertically */
+button {
+    font-size: 20px;
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
